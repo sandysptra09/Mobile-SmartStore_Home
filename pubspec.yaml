@@ -1,0 +1,32 @@
+name: smartstore_home
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  intl: ^0.19.0
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  google_fonts: ^4.0.3
+  smooth_page_indicator: ^1.1.0
+  badges: ^3.1.2
+  google_nav_bar: ^5.0.6
+  flutter_rating_bar: ^4.0.1
+  flutter_html: ^2.1.5
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
